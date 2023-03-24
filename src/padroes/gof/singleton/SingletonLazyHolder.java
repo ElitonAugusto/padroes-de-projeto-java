@@ -9,6 +9,6 @@ public class SingletonLazyHolder {
 	}
 	
 	public static SingletonLazyHolder getInstancia() {
-		return instancia;
+		return InstanceHolder.instancia;
 	}
 }
